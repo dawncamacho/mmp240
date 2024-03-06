@@ -1,8 +1,8 @@
 #wrapper{
     width:1200px;
-    margin-left:auto
-    margin-right:auto
-    background-color:
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
     padding: 1em;
 }
 header{
@@ -11,4 +11,11 @@ header{
     background-repeat: no-repeat;
     background-position: ;
 
+}
+body{
+    background-color: black;
+}
+nav li{
+    list-style: none;
+    display: inline;
 }
