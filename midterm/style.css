@@ -36,7 +36,9 @@ nav a{
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    text-transform: uppercase;
-  
-    
+    text-transform: uppercase; 
+}
+.col-left{
+    float:left;
+    width:33%;
 }
