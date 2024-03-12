@@ -4,13 +4,7 @@
     background-color:white;
 
 }
-header{
-    background-color: gray;
-    background-image: ;
-    background-repeat: no-repeat;
-    background-position: ;
 
-}
 body{
     background-color: black;
     margin: 0;
@@ -18,27 +12,84 @@ body{
 }
 nav{
     width: 100%;
-    background-color: gray;
-    height: 2em;
-    margin-bottom: .5em;
-  
+    float: left;
+    background-color: lightgray;
 }
+
 nav ul{
-
-
+    height: 2em;
 }
+    
+
 nav li{
     list-style: none;
     display: inline;
-    margin-left: 1em;
+    margin-left: 6em;
 }
 nav a{
     text-decoration: none;
     font-size: 1.2em;
     color: black;
     text-transform: uppercase; 
+    font-weight: bold;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: lightgray;
 }
 .col-left{
     float:left;
-    width:33%;
+    width:26%;
+    margin:0 2%;
+}
+.col-left img{
+    width: 100%;
+}
+.col-mid{
+    width: 46%;
+    float:left;
+    margin:0 2%;
+}
+.col-mid img{
+    width: 100%;
+}
+.col-right{
+    width: 20%;
+    float:left;
+}
+.col-right p{
+    text-align: center;
+    margin-top: 60%;
+}
+main{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+main img{
+    width: 100%;
+}
+footer p{
+   text-align: center;
+   padding: 2%;
+}
+
+#container{
+    background-color: #522929;
+}
+.rows{
+    width: 98%;
+    float:left;
+    margin:1% auto;
+}
+
+.colums{
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
+
+.colums img{
+    width: 100%;
 }
