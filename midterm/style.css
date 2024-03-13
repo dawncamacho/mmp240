@@ -93,3 +93,8 @@ footer p{
 .colums img{
     width: 100%;
 }
+.colums p{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+}
