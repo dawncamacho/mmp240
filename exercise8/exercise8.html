@@ -24,7 +24,7 @@
       padding: 1em;
     }
     nav li {
-      display: inline;
+      display: block;
       padding:0 2em;
       border-right: solid 1px #fff;
     }
@@ -40,6 +40,11 @@
 
     nav li a:hover{
       text-decoration: underline;
+    }
+    @media (max-width:768px){
+      nav(
+        padding:0;
+      )
     }
 
 
