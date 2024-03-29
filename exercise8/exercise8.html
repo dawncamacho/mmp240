@@ -23,8 +23,8 @@
       background-color: #008387;
       padding: 1em;
     }
-    nav li {
-      display: block;
+    nav li a{
+      display: inline;
       padding:0 2em;
       border-right: solid 1px #fff;
     }
@@ -33,7 +33,7 @@
       border:none;
     }
 
-    nav li a{
+    nav li {
       text-decoration: none;
       color: #fff;
     }
@@ -42,10 +42,17 @@
       text-decoration: underline;
     }
     @media (max-width:768px){
-      nav(
+      nav{
         padding:0;
-      )
+      }
+      nav li {
+        display: block;
+        padding:1em;
+        border-bottom: solid 1px #fff;
+
+      }
     }
+
 
 
 
