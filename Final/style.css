@@ -1,12 +1,65 @@
+/* Table of Content
+
+1. Resets
+2. page level styles
+3.Typography
+4. Utility styles
+5. Header and Top Navigation
+6. Program Navigation
+7. Home page Content
+8. Program pages
+9. Media queries for larger viewpoints
+
+*/
+/********Resets******** */
+*{
+    margin:0 ;
+    padding: 0;
+    border: 0;
+}
+/* 2. page level styles*/
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 0.5rem;
+}
+
+#wrapper{
+    max-width: 1200px;
+    margin: 0; auto;
+}
+/* ******4.Utilites****** */
 .flex-container{
     display: flex;
     justify-content: space-between;
 }
 
-h1{
-    font-size: 1.5rem;
+.larger-text{
+    font-size: larger;
 }
 
+.img-responsive{
+    width: 100%;
+}
+
+/*  *****3.Typography***** */
+h1{
+    font-size: 1.5rem; /* root font-size */
+}
+/* ******5.Header and top navigation******* */
 #top-menu{
     display:none;
 }
+
+/* ******6.Program Navigation***** */
+
+/* *****7.Home Page Content****** */
+
+/* *****8.Program Page******* */
+
+/* *****9.Media Queries for Larger Viewpoints**** */
