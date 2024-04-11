@@ -50,6 +50,7 @@ body{
 /*  *****3.Typography***** */
 h1{
     font-size: 1.5rem; /* root font-size */
+    line-height: 1em;
 }
 /* ******5.Header and top navigation******* */
 #top-menu{
