@@ -20,7 +20,11 @@
 /* 2. page level styles*/
 
 html{
+    position: fixed;
+    margin-top: 0;
     font-size: 20px;
+    position: absolute;
+    top: 50px;
 }
 
 body{
@@ -30,6 +34,8 @@ body{
 }
 
 #wrapper{
+    position: relative;
+    margin-top: 50px; 
     max-width: 1200px;
     margin: 0; auto;
 
