@@ -41,7 +41,7 @@ body{
 
 }
 input{
-    border: solid;1px
+    border: solid 1px;
     padding: 3px;
 }
 /* ******4.Utilites****** */
@@ -86,6 +86,43 @@ header{
 }
 
 /* ******6.Program Navigation***** */
+nav ul{
+    list-style-type: none ;
+}
+
+li.dropdown{
+    border-bottom: solid 1px black;
+    display: none;
+}
+.dropdown ul{ 
+    list-style-type: none;
+    display: none;
+
+}
+    nav{
+    display:none;
+}
+
+li.dropdown:hover ul{
+    display: block;
+}
+
+.dropdown a{
+    display: block;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+.dropdown li a:{
+    color: blue;
+}
+
+li.dropdown li:hover; ul{
+    color:yellow;
+}
+.expand{
+    float:right;
+}
 
 /* *****7.Home Page Content****** */
 
