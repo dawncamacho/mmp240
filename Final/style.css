@@ -13,31 +13,30 @@
 */
 /********Resets******** */
 *{
-    margin:0 ;
+    margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 /* 2. page level styles*/
 
-html{
+/*html{
     position: fixed;
     margin-top: 0;
     font-size: 20px;
     position: absolute;
     top: 50px;
-}
+}*/
 
 body{
     font-family: sans-serif;
     line-height: 1.5em;
-    margin: 0.5rem;
+  
 }
 
 #wrapper{
-    position: relative;
-    margin-top: 50px; 
+   
     max-width: 1200px;
-    margin: 0; auto;
+    margin: 0 auto;
 
 }
 input{
@@ -50,13 +49,10 @@ input{
     justify-content: space-between;
 }
 
-.larger-text{
-    font-size: larger;
-}
 
 .img-responsive{
     width: 100%;
-    .float-right:right;
+    float: right;
 }
 
 /*  *****3.Typography***** */
@@ -67,27 +63,36 @@ h1{
 /* ******5.Header and top navigation******* */
 
 header{
+    width: 100%;
+    float:left;
+    height: 5em;
+    margin-bottom: 0.5em;
+   
+}
 
-    position: relative;
-}
-#top-menu{
-    display:none;
-    padding: 0.5;
-    border: solid;black;
-    background-color: white;
-    clear: right;
-    position: absolute;
-    right:0;
-    top:28px;
-}
-#top-menu ul{
-    list-style: none;
+.top-menu{
+   
     
+    padding: 0.5em;
+    border: solid 1px black;
+    background-color: white;
+}
+.top-menu ul li{
+    display: inline;
+    
+    list-style: none;
+    margin-right: 2.5em;
 }
 
 /* ******6.Program Navigation***** */
 nav ul{
     list-style-type: none ;
+}
+
+.program-nav{
+    height: 5em;
+    width: 100%;
+    float: left;
 }
 
 li.dropdown{
@@ -97,11 +102,8 @@ li.dropdown{
 .dropdown ul{ 
     list-style-type: none;
     display: none;
-
 }
-    nav{
-    display:none;
-}
+   
 
 li.dropdown:hover ul{
     display: block;
@@ -113,11 +115,11 @@ li.dropdown:hover ul{
     color: black;
     text-decoration: none;
 }
-.dropdown li a:{
+.dropdown li a{
     color: blue;
 }
 
-li.dropdown li:hover; ul{
+li.dropdown li:hover ul{
     color:yellow;
 }
 .expand{
