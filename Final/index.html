@@ -4,26 +4,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
     </head>
     <body>
         <div id="wrapper">
-            <header>
-                <h1></h1>
-                <nav>
-                    <img src="" alt="menu">
+            <header class="header">
+                <nav class="navbar">
+                    <a href="#" class="nav-logo">Design@Cuny</a>
                     <div class="top-menu">
-                        <ul>
-                            <li><a href=""></a>About Us</a></li>
-                        
-                            <li><a href=""></a>Financial Aid</a></li>
-                            <li><a href=""></a>Apply</a></li>
-                            <li><a href=""></a>Find a Design Program</a></li>
-
+                        <ul class="nav-menu"> 
+                            <li class="nav-item"><a href="#" class="nav-link"></a>About Us</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"></a>Financial Aid</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"></a>Apply</a></li>
                         </ul>
-                        <form action=""></form>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div> 
                     </div>
                 </nav>
+                <form action="">
+                    <label for="gsearch">Search</label>
+                    <input type="search" placeholder="search...">
+                </form>
             </header>
 
     <div class="program-nav">
@@ -108,6 +116,27 @@
     </main>
     <footer></footer>
 </div> <!--closing wrapper-->
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }
+</script>
 
 </body>
 
