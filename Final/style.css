@@ -70,8 +70,6 @@ header{
 }
 
 .top-menu{
-   
-    
     padding: 0.5em;
     border: solid 1px black;
     background-color: white;
@@ -96,7 +94,7 @@ nav ul{
 
 li.dropdown{
     border-bottom: solid 1px black;
-    display: none;
+    /*display: none;*/
 }
 .dropdown ul{ 
     list-style-type: none;
