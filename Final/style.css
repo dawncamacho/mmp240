@@ -37,6 +37,9 @@ body{
    
     max-width: 1200px;
     margin: 0 auto;
+    .input p, h1, h2, h3, h4{
+        margin-bottom: 1em;
+    }
 
 }
 input{
@@ -124,7 +127,57 @@ li.dropdown li:hover ul{
 }
 
 /* *****7.Home Page Content****** */
+.banner a{
+    background-image: ul;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em 2em;
+    margin: 2em 0;
+}
+
+.banner a{
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:block;
+    padding: 0.5em;
+
+}
+
 
 /* *****8.Program Page******* */
+.news{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.event{
+    grid-column-start: 4;
+}
 
 /* *****9.Media Queries for Larger Viewpoints**** */
+@media (min-width:768px){
+
+}
+.program-nav ul{
+    justify-content: space-between;
+    display: flex;
+}
+.program-nav li{
+    width: 30%;
+    position:relative;
+}
+
+.dropdown{
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: solid 1px black;
+    padding: 5px;
+    width: 100%;
+}
+
+.program-nav li li{
+    width: 100%;
+}
