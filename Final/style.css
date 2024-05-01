@@ -116,6 +116,8 @@ li.dropdown:hover ul{
     text-decoration: none;
 }
 .dropdown li a{
+    position: absolute;
+    display: none;
     color: blue;
 }
 
@@ -180,4 +182,8 @@ li.dropdown li:hover ul{
 
 .program-nav li li{
     width: 100%;
+}
+
+main-menu li:hover .dropdown{
+    display: block;
 }
