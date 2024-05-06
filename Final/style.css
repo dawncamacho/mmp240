@@ -34,14 +34,10 @@ body{
 }
 
 #wrapper{
-   
     max-width: 1200px;
-    margin: 0 auto;
-    .input p, h1, h2, h3, h4{
-        margin-bottom: 1em;
-    }
-
+    margin: 0 1em;
 }
+
 input{
     border: solid 1px;
     padding: 3px;
@@ -65,11 +61,9 @@ h1{
 }
 /* ******5.Header and top navigation******* */
 
-header{
+.header{
     width: 100%;
     float:left;
-    margin-bottom: 0.5em;
-   
 }
 
 .top-menu{
@@ -90,14 +84,21 @@ nav ul{
 }
 
 .program-nav{
-    height: 5em;
     width: 100%;
     float: left;
+    height: 6em;
+    margin-top: 1em;
+    border: 1px solid #000;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+ .program-nav p, .program-nav h3{
+    margin-left: .5em;
 }
 
 li.dropdown{
-    border-bottom: solid 1px black;
-    /*display: none;*/
+     /*border-bottom: solid 1px black;
+    display: none;*/
 }
 .dropdown ul{ 
     list-style-type: none;
@@ -147,6 +148,15 @@ li.dropdown li:hover ul{
 
 }
 
+main{
+    width: 100%;
+    float: left;
+}
+
+.dropdown{
+   border: none !important;
+}
+
 
 /* *****8.Program Page******* */
 .news{
@@ -158,10 +168,6 @@ li.dropdown li:hover ul{
     grid-column-start: 4;
 }
 
-/* *****9.Media Queries for Larger Viewpoints**** */
-@media (min-width:768px){
-
-}
 .program-nav ul{
     justify-content: space-between;
     display: flex;
@@ -186,4 +192,104 @@ li.dropdown li:hover ul{
 
 main-menu li:hover .dropdown{
     display: block;
+}
+
+
+/* home page picture */
+.home_img{
+    width: 100%;
+    float: left;
+    height: 10em;
+    background-image: url("images/The_City.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+}
+
+.home_img h2{
+    padding-top: 2em;
+    margin: 0 1em;
+    text-align: center;
+}
+
+.home_img a{
+    text-decoration: none;
+    color: #000;
+    font-size: 70%;
+}
+
+.news{
+    width: 100%;
+    float: left;
+    font-size: smaller;
+}
+
+.news h2{
+    margin-bottom: .5em;
+}
+
+.awards, .showcase{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+footer{
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 1em;
+}
+
+
+/* *****9.Media Queries for Larger Viewpoints**** */
+@media (min-width:768px){
+
+    .news{
+        font-size: medium;
+    } 
+    .news h2{
+        margin-bottom: 1em;
+    }  
+    .awards{
+        width: 66%;
+        float: left;
+    }
+    .showcase{
+        width: 32%;
+        float: left;
+        margin-left: 2%;
+    }
+
+    .showcase img{
+        width: 100%;
+    }
+
+    .home_img a{
+        font-size: 100%;
+        line-height: 1.5em;
+    }
+
+    .home_img{
+        width: 100%;
+        float: left;
+        height: 35em;
+        background-image: url("images/The_City.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 1em;
+    }
+    
+    .home_img h2{
+        padding-top: 5em;
+    }
+
+    .navbar{
+        width:76%;
+        float: left;
+    }
+    .form{
+        width: 20%;
+        float: left;
+        margin-top: 1.5em;
+    }
+
 }
