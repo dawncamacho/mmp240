@@ -279,7 +279,7 @@ footer{
 
 .program-layout{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns:auto;
 }
 
 
