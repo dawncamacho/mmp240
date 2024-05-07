@@ -252,16 +252,16 @@ main-menu li:hover .dropdown{
 }
 
 .program-card{
-    background-color: transparent;
+   /* background-color: transparent;
     transition-property: background-color box-shadow transform;
-    transition-duration: 1s;
+    transition-duration: 1s;*/
     border-radius: 10px;
 }
 
 .program-card:hover{
-    background-color: #e6f3ff;
+    /*background-color: #e6f3ff;
     box-shadow: 5px 5px 7px #999;
-    transform: scale(1.02) rotate(0.5deg);
+    transform: scale(1.02) rotate(0.5deg);*/
 }
 .card-body{
     padding: 0.5em;
@@ -277,9 +277,19 @@ footer{
     margin-bottom: 1em;
 }
 
+.program-layout{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
 
 /* *****9.Media Queries for Larger Viewpoints**** */
 @media (min-width:768px){
+
+    #wrapper{
+        width: 98%;;
+        margin: 0 1em;
+    }    
 
     .news{
         font-size: medium;
@@ -330,4 +340,11 @@ footer{
         margin-top: 1.5em;
     }
 
+    .program-layout{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
+
+
