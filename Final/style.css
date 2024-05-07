@@ -279,8 +279,10 @@ footer{
 
 .program-layout{
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: auto;
+   
 }
+
 
 
 /* *****9.Media Queries for Larger Viewpoints**** */
@@ -343,6 +345,7 @@ footer{
     .program-layout{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        
     }
 
 }
