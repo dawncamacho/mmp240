@@ -117,8 +117,8 @@ li.dropdown:hover ul{
     text-decoration: none;
 }
 .dropdown li a{
-    position: absolute;
-    display: none;
+    /*position: absoulute;
+    display: none;*/
     color: blue;
 }
 
