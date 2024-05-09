@@ -100,9 +100,12 @@ li.dropdown{
      /*border-bottom: solid 1px black;
     display: none;*/
 }
-.dropdown ul{ 
+.program-nav .dropdown ul{ 
     list-style-type: none;
     display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
 }
    
 
