@@ -100,13 +100,7 @@ li.dropdown{
      /*border-bottom: solid 1px black;
     display: none;*/
 }
-.program-nav .dropdown ul{ 
-    list-style-type: none;
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    width: 100%;
-}
+
    
 
 li.dropdown:hover ul{
@@ -185,10 +179,7 @@ main{
     grid-column-start: 4;
 }
 
-.program-nav ul{
-    justify-content: space-between;
-    display: flex;
-}
+
 .program-nav li{
     width: 30%;
     position:relative;
@@ -353,6 +344,17 @@ footer{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         
+    }
+    .program-nav ul{
+        justify-content: space-between;
+        display: flex;
+    }
+    .program-nav .dropdown ul{ 
+        list-style-type: none;
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
     }
 
 }
