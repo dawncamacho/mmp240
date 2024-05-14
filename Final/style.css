@@ -246,11 +246,21 @@ main-menu li:hover .dropdown{
 }
 
 .program-card{
-   /* background-color: transparent;
+    background-color: transparent;
     transition-property: background-color box-shadow transform;
-    transition-duration: 1s;*/
+    transition-duration: 1s;
     border-radius: 10px;
 }
+
+.program-card:hover{
+
+
+background-color: #e6f3ff;
+box-shadow: 5px 5px 7px #999;
+transform: scale(1.02);
+}
+
+
 .program-card img{
     width: 90%;
 }
