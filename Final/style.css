@@ -355,6 +355,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 1.5em;
+        grid-row-gap: 1.5em;
         
     }
     .program-nav ul{
