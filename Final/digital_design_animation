@@ -95,25 +95,25 @@
         <div class="program-layout">
 
             <article class="program-card">
-                <a href="#"><img src="#"/></a>
+                <a href="https://www.hostos.cuny.edu/www-hostosdesign-com"><img src="#"/></a>
                 <div class="card-body">
-                    <h3>#</h3>
+                    <h3>Hostos Community College</h3>
                     <h2>Digital Design and Animation</h2>
                 </div> <!-- do this for all schools and programs-->
             </article>
 
             <article class="program-card">
-                <a href="#"><img src="#"/></a>
+                <a href="https://www.qc.cuny.edu/academics/art/design-bfa/"><img src="#"/></a>
                 <div class="card-body">
-                    <h3>#</h3>
+                    <h3>Queens College</h3>
                     <h2>Digital Design and Animation</h2>
                 </div> <!-- do this for all schools and programs-->
             </article>
 
             <article class="program-card">
-                <a href="#"><img src="#"/></a>
+                <a href="https://lehman-undergraduate.catalog.cuny.edu/programs/CGI-BS"><img src="#"/></a>
                 <div class="card-body">
-                    <h3>#</h3>
+                    <h3>Leman College</h3>
                     <h2>Digital Design and Animation</h2>
                 </div> <!-- do this for all schools and programs-->
             </article>
