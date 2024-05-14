@@ -30,12 +30,12 @@
 body{
     font-family: sans-serif;
     line-height: 1.5em;
-  
 }
 
 #wrapper{
     max-width: 1200px;
-    margin: 0 1em;
+    margin: 0 auto;
+    font-size: 100%;
 }
 
 input{
@@ -288,7 +288,8 @@ footer{
 
     #wrapper{
         width: 98%;;
-        margin: 0 1em;
+        margin: 0 auto;
+        font-size: 130%;
     }    
 
     .news{
@@ -343,6 +344,7 @@ footer{
     .program-layout{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1.5em;
         
     }
     .program-nav ul{
@@ -359,6 +361,10 @@ footer{
     .program-nav li{
         width: 30%;
         position:relative;
+    }
+
+    .program-card img{
+        width: 100%;
     }
 
 }
