@@ -14,7 +14,7 @@
         <div id="wrapper">
             <header class="header">
                 <nav class="navbar">
-                    <a href="http://127.0.0.1:5501/Final/index.html" class="nav-logo">Design@Cuny</a>
+                    <a href="Final/index.html" class="nav-logo">Design@Cuny</a>
                     <div class="top-menu">
                         <ul class="nav-menu"> 
                             <li class="nav-item"><a href="https://www.cuny.edu/about/" class="nav-link">About Cuny</a></li>
